@@ -93,7 +93,7 @@ def play_aidungeon_2():
     # lower top_k is a hard limit of "how many fitting words should I consider",
     #  i.e. lowering this value also limits the AI in creativity
     # original 40
-    top_k = 20
+    top_k = 40
  
     console_print("\nBefore we start, would you like to change the default temperature (" + str(temp) + ") and top_k (" + str(top_k) + ") value?\n")
     choice = input("1) Lower the temp! I wanna cuddle!\n-) Press enter to skip\n>")
